@@ -7,8 +7,8 @@ import telegram
 
 app = Flask(name)
 
-TOKEN = "ТВОЙ_ТОКЕН"
-CHAT_ID = "ТВОЙ_CHAT_ID"
+TOKEN = "8127921766:AAFJBcEYYX6UhPjyZFG7-cC5_H8bb72Q_GA"
+CHAT_ID = "1905948782"
 bot = telegram.Bot(token=TOKEN)
 seen_links = set()
 
